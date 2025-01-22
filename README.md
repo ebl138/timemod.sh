@@ -48,8 +48,8 @@ bash timemod.sh 2021:09:22 17:04:16
 
 You'll notice that the 'Accessed', 'Modified' and 'Created' attributes (as shown below) are not the date and time you set using the timemod.sh script but the current date and time; this is because these are filesystem attributes and not part the internal file metadata. There's an option to change the 'Accessed' and 'Modified' attribute values using the '-FileModifyDate' flag but it isn't possible to change the 'Created' attribute value; feel free to add the flag back to the exiftool command though, however.
 
-[Filesystem attributes](media/timemod-filesystem-attributes.png)
+![Filesystem attributes](media/timemod-filesystem-attributes.png)
 
 The 'Created On' metadata tag will be set to the date and time you set using timemod.sh:
 
-[Created On metadata](media/timemod-metadata-createdon.png)
+![Created On metadata](media/timemod-metadata-createdon.png)
