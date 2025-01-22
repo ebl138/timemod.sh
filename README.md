@@ -36,7 +36,7 @@ installed to). Save the file then reboot.
 git clone https://github.com/ebl138/timemod.sh.git
 ```
 
-    Or click into 'timemod.sh' above and click the 'Download raw file' icon at the top right.
+Or click into 'timemod.sh' above and click the 'Download raw file' icon at the top right.
 
 2. Ensure timemod.sh is in the same directory as the images you want to modify.
 
