@@ -106,7 +106,7 @@ fi
 
 for photo in $(ls *.jpg *.png);
 do
-	exiftool -d "%Y:%m:%d %H:%M:%S" -AllDates="$year':'$month':'$day' '$hour':'$minute':'$second" -FileModifyDate="$year':'$month':'$day' '$hour':'$minute':'$second" $photo
+	exiftool -d "%Y:%m:%d %H:%M:%S" -AllDates="$year':'$month':'$day' '$hour':'$minute':'$second" $photo
 
 	randInt=$[($RANDOM%10)+5]
 
